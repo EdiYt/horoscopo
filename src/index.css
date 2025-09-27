@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  background: #f5f7fa;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #f6d365 0%, #fda085 100%);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+  box-sizing: border-box;
+}
+
+#root {
+  width: 100%;
+  max-width: 480px;
+}
+
