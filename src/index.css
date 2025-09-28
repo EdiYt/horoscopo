@@ -6,8 +6,11 @@ body {
 
 body {
   margin: 0;
+  background-image: url('https://media.a24.com/p/4fc235928ce584a68c36a9a6efbef365/adjuntos/296/imagenes/009/607/0009607155/1200x675/smart/image.png');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
   font-family: Arial, sans-serif;
-  background: linear-gradient(135deg, #f6d365 0%, #fda085 100%);
   min-height: 100vh;
   display: flex;
   justify-content: center;
@@ -18,6 +21,6 @@ body {
 
 #root {
   width: 100%;
-  max-width: 480px;
+  max-width: 960px; 
 }
 
