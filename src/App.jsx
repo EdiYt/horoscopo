@@ -71,7 +71,7 @@ function App() {
         <div className="guia-grid">
           {signos.map(s => (
             <div key={s.signo} className="guia-card">
-              <img src={`/src/assets/${s.img}`} alt={s.signo} className="guia-imagen" />
+              <img src={`/${s.img}`} alt={s.signo} className="guia-imagen" />
               <h3>{s.signo}</h3>
               <p>{s.fechas}</p>
             </div>
@@ -92,7 +92,7 @@ function App() {
         {signoObj && (
           <div className="resultado">
             <h3>Tu signo es: {signoObj.signo}</h3>
-            <img src={`/src/assets/${signoObj.img}`} alt={signoObj.signo} className="imagenSigno" />
+            <img src={`/${signoObj.img}`} alt={signoObj.signo} className="imagenSigno" />
             <div className="detalleSigno">
               <h4>Hola, {nombre}</h4>
               <p>{descripciones[signoObj.signo]}</p>
